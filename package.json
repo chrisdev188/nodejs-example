@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisdev188/nodejs-example.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "chris bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdev188/nodejs-example/issues"
+  },
+  "homepage": "https://github.com/chrisdev188/nodejs-example#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
